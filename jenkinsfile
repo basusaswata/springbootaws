@@ -4,6 +4,6 @@
         serverDomain = "Project1 Server Domain"
 		sbServer1 = "34.205.55.12"
 		sbServer2 = "34.239.139.216"
-		artifactDir = ${workspace}/target/spring-boot-aws-0.1.0.jar"
+		artifactDir = "${workspace}/target/spring-boot-aws-0.1.0.jar"
 		keyFile = "C:/saswata/tutorial/aws/accounts/sas-ec2.ppk"
     }
