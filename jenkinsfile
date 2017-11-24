@@ -5,5 +5,5 @@
 		sbServer1 = "34.205.48.143"
 		sbServer2 = "52.202.188.75"
 		artifactDir = "./target/spring-boot-aws-0.1.0.jar"
-		keyFile = "C:/saswata/tutorial/aws/accounts/sas-ec2.ppk"
+		keyFile = "C:/saswata/tutorial/aws/accounts/sas-ec2.ppk" 
     }
