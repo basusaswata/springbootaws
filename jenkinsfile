@@ -8,3 +8,4 @@
 		artifactDir = "./target/spring-boot-aws-0.1.0.jar" 
 		keyFile = "C:/saswata/tutorial/aws/accounts/sas-ec2.ppk" 
     }
+ 
