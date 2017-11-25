@@ -1,4 +1,4 @@
-package com.blog.samples.boot.test.config;
+package com.blog.sample.test.config;
 
 import org.springframework.context.annotation.Configuration;
 

@@ -7,12 +7,10 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.blog.samples.boot.config.AwsResourceConfig;
-import com.blog.samples.boot.test.config.JunitTestConfig;
+import com.blog.sample.test.config.JunitTestConfig;
 
 //@ContextConfiguration(classes=Application.class)
 @RunWith(SpringJUnit4ClassRunner.class)
