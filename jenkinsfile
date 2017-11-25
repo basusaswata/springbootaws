@@ -3,8 +3,8 @@
         projectName = "Project1"
         serverDomain = "Project1 Server Domain"
         bat "echo ${params.sbServer1}"
-		sbServer1 = "${sbServer1}" 
-		sbServer2 = "${sbServer2}"
+		sbServer1 = "$sbServer1" 
+		sbServer2 = "$sbServer2"
 		artifactDir = "./target/spring-boot-aws-0.1.0.jar" 
 		keyFile = "C:/saswata/tutorial/aws/accounts/sas-ec2.ppk" 
     }
