@@ -2,7 +2,7 @@
     standardPipeline {
         projectName = "Project1"
         serverDomain = "Project1 Server Domain"
-        bat "echo ################################# $sbServer1 #########################################"
+        bat "echo' ################################# $sbServer1 #########################################'"
 		sbServer1 = "222" 
 		sbServer2 = "111"
 		artifactDir = "./target/spring-boot-aws-0.1.0.jar" 
