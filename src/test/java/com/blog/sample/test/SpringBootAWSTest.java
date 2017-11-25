@@ -7,16 +7,16 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.test.context.ActiveProfiles;
+import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-import com.blog.samples.Application;
+import com.blog.samples.boot.config.AwsResourceConfig;
+import com.blog.samples.boot.test.config.JunitTestConfig;
 
-@ContextConfiguration(classes=Application.class)
+//@ContextConfiguration(classes=Application.class)
 @RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = {JunitTestConfig.class})
 public class SpringBootAWSTest {
 	
 	
