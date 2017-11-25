@@ -2,8 +2,9 @@
     standardPipeline {
         projectName = "Project1"
         serverDomain = "Project1 Server Domain"
-		sbServer1 = "${env.sbServer1}" 
-		sbServer2 = "${env.sbServer2}"
+        bat "echo ${params.sbServer1}"
+		sbServer1 = "${sbServer1}" 
+		sbServer2 = "${sbServer2}"
 		artifactDir = "./target/spring-boot-aws-0.1.0.jar" 
 		keyFile = "C:/saswata/tutorial/aws/accounts/sas-ec2.ppk" 
     }
